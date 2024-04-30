@@ -1,0 +1,84 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: full;
+    border: 1px solid red;
+}
+.mainbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menuz {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.menubox {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menubox:after {
+    content: "";
+    margin: 5px auto;
+    width: 80px;
+    border-bottom: 5px solid skyblue;
+}
+.butbox {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.menub {
+    border: 2px solid skyblue;
+    background-color: white;
+    color: skyblue;
+    box-shadow: 1px 1px 0px 0px #333;
+}
+.menub:hover {
+    border: 2px solid white;
+    background-color: skyblue;
+    color: white;
+    box-shadow: -1px -1px #333;
+    transition: all 0.5s;
+}
+.sulbox {
+    width: full;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.sul {
+    width: 47%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.sul2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sul3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px;
+    border-bottom: 2px solid gray;
+}
+.sul32 {
+    color: skyblue;
+}
+.img {
+    width: 300px;
+    border: 4px solid skyblue;
+}

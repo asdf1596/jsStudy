@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body class="mainbox">
+        <div class="menuz">
+            <div class="menubox">Food Menu</div>
+        </div>
+        <div class="butbox">
+            <button
+                class="menub"
+                onclick="document.getElementById('but1').style.display = 'flex';document.getElementById('but2').style.display = 'flex';document.getElementById('but3').style.display = 'flex';document.getElementById('but4').style.display = 'flex';document.getElementById('but5').style.display = 'flex'"
+            >
+                All
+            </button>
+            <button
+                class="menub"
+                onclick="document.getElementById('but1').style.display = 'flex';document.getElementById('but2').style.display = 'none';document.getElementById('but3').style.display = 'none';document.getElementById('but4').style.display = 'none';document.getElementById('but5').style.display = 'none'"
+            >
+                Breakfast
+            </button>
+            <button
+                class="menub"
+                onclick="document.getElementById('but2').style.display = 'flex';document.getElementById('but3').style.display = 'none';document.getElementById('but1').style.display = 'none';document.getElementById('but4').style.display = 'none';document.getElementById('but5').style.display = 'none'"
+            >
+                Lunch
+            </button>
+            <button
+                class="menub"
+                onclick="document.getElementById('but3').style.display = 'flex';document.getElementById('but2').style.display = 'none';document.getElementById('but4').style.display = 'none';document.getElementById('but1').style.display = 'none';document.getElementById('but5').style.display = 'none'"
+            >
+                Shakes
+            </button>
+            <button
+                class="menub"
+                onclick="document.getElementById('but4').style.display = 'flex';document.getElementById('but2').style.display = 'none';document.getElementById('but3').style.display = 'none';document.getElementById('but5').style.display = 'none';document.getElementById('but1').style.display = 'none'"
+            >
+                Dinner
+            </button>
+        </div>
+        <div class="sulbox">
+            <div class="sul" id="but1">
+                <image src="./image/bibimbap.jpeg" class="img"></image>
+                <div class="sul2">
+                    <div class="sul3">
+                        <div class="sul31">비빔밥</div>
+                        <div class="sul32">3000원(싸다)</div>
+                    </div>
+                    <div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ullam animi natus ut iure alias eum quos quo
+                        incidunt! Ducimus, doloremque ratione ipsa quaerat
+                        voluptas odio sequi necessitatibus ipsam obcaecati
+                        temporibus.
+                    </div>
+                </div>
+            </div>
+            <div class="sul" id="but2">
+                <image src="./image/chick.jpg" class="img"></image>
+                <div class="sul2">
+                    <div class="sul3">
+                        <div class="sul31">치킨</div>
+                        <div class="sul32">3000원(싸다)</div>
+                    </div>
+                    <div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ullam animi natus ut iure alias eum quos quo
+                        incidunt! Ducimus, doloremque ratione ipsa quaerat
+                        voluptas odio sequi necessitatibus ipsam obcaecati
+                        temporibus.
+                    </div>
+                </div>
+            </div>
+            <div class="sul" id="but3">
+                <image src="./image/jjajang.jpg" class="img"></image>
+                <div class="sul2">
+                    <div class="sul3">
+                        <div class="sul31">짜장면</div>
+                        <div class="sul32">3000원(싸다)</div>
+                    </div>
+                    <div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ullam animi natus ut iure alias eum quos quo
+                        incidunt! Ducimus, doloremque ratione ipsa quaerat
+                        voluptas odio sequi necessitatibus ipsam obcaecati
+                        temporibus.
+                    </div>
+                </div>
+            </div>
+            <div class="sul" id="but4">
+                <image src="./image/sam.jpg" class="img"></image>
+                <div class="sul2">
+                    <div class="sul3">
+                        <div class="sul31">삼겹살</div>
+                        <div class="sul32">3000원(싸다)</div>
+                    </div>
+                    <div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ullam animi natus ut iure alias eum quos quo
+                        incidunt! Ducimus, doloremque ratione ipsa quaerat
+                        voluptas odio sequi necessitatibus ipsam obcaecati
+                        temporibus.
+                    </div>
+                </div>
+            </div>
+            <div class="sul" id="but5">
+                <image src="./image/pi.jpg" class="img"></image>
+                <div class="sul2">
+                    <div class="sul3">
+                        <div class="sul31">피짜</div>
+                        <div class="sul32">3000원(싸다)</div>
+                    </div>
+                    <div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ullam animi natus ut iure alias eum quos quo
+                        incidunt! Ducimus, doloremque ratione ipsa quaerat
+                        voluptas odio sequi necessitatibus ipsam obcaecati
+                        temporibus.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js" />
+</html>
