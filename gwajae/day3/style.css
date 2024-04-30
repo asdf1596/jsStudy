@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(205, 200, 0);
+}
+.mainbox {
+    margin: 50px;
+    width: full;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.vsbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vs {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    color: blue;
+    font-size: 20px;
+}
+.number {
+    margin-top: 3px;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+.touch {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.trynum {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+}
+.rspbox {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rsp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20%;
+}
+.gameend {
+    display: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.realend {
+    display: none;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+.ending {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.trybox {
+    width: full;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+}
+.retry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20%;
+    cursor: pointer;
+}
