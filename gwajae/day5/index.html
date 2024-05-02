@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="mainbox">
+            <div class="box">
+                <div id="title">책</div>
+                <div class="alim" id="alim">adf</div>
+                <div>
+                    <div class="who">책 이름</div>
+                    <input
+                        class="Input"
+                        type="text"
+                        id="titleInput"
+                        placeholder="제목"
+                    />
+                    <div class="who">책 저자</div>
+                    <input
+                        class="Input"
+                        type="text"
+                        id="valueInput"
+                        placeholder="저자"
+                    />
+                    <button class="button" onclick="addItem()">제출</button>
+                </div>
+                <div><ul id="itemList"></ul></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
