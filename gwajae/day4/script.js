@@ -39,6 +39,7 @@ function day4() {
 }
 function check(ans) {
     if (answer == ans) {
+        next.innerText = "next";
         next.style.display = "flex";
         mainbox.style.backgroundColor = "green";
         switch (ans) {
@@ -49,6 +50,7 @@ function check(ans) {
             case 2:
                 ans1.style.backgroundColor = "red";
                 ans2.style.backgroundColor = "green";
+                break;
             default:
                 ans1.style.backgroundColor = "red";
                 ans2.style.backgroundColor = "red";
@@ -59,7 +61,7 @@ function check(ans) {
         next.style.display = "flex";
         next.innerText = "retry";
         mainbox.style.backgroundColor = "red";
-        switch (ans) {
+        switch (answer) {
             case 1:
                 ans1.style.backgroundColor = "green";
                 ans2.style.backgroundColor = "red";
@@ -67,6 +69,7 @@ function check(ans) {
             case 2:
                 ans1.style.backgroundColor = "red";
                 ans2.style.backgroundColor = "green";
+                break;
             default:
                 ans1.style.backgroundColor = "red";
                 ans2.style.backgroundColor = "red";
