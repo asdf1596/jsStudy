@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body class="main">
+        <div class="mainbox" id="mainbox">
+            <div class="button">비밀번호 생성하기!</div>
+            <div class="copybox">
+                <div class="copy" id="copyTxt">클릭해서 비밀번호를 복사합니다.</div>
+                <button onclick="copy('copyTxt');return false;">COPY</button>
+            </div>
+            <div class="lenbox">
+                <div class="Length">Length</div>
+                <input class="lenvalue" type="number" value="" id="lenvalue"></input>
+            </div>
+            <div class="need">포함할 문자:</div>
+            <div class="ifbox">
+                <div class="check_wrap">
+                    <input type="checkbox" id="check_btn1"/>
+                    <label for="check_btn"><span>Numbers(0-9)</span></label>
+                </div>
+                <div class="check_wrap">
+                    <input type="checkbox" id="check_btn2"/>
+                    <label for="check_btn"><span>Small Letters(a-z)</span></label>
+                </div>
+                <div class="check_wrap">
+                    <input type="checkbox" id="check_btn3"/>
+                    <label for="check_btn"><span>Capital Letters(A-Z)</span></label>
+                </div>
+                <div class="check_wrap">
+                    <input type="checkbox" id="check_btn4"/>
+                    <label for="check_btn"><span>Symbols (@,!,#,$,&,%)</span></label>
+                </div>
+            </div>
+            <button class="create" onclick="create1()">생성하기</button>
+            <div class="err">
+                <div class="nu">그림</div>
+                <div class="errlist">
+                    <div class="min">●최소 길이는 5입니다.</div>
+                    <div class="min">●최대 길이는 70입니다.</div>
+                    <div class="min">
+                        ●강력한 비밀번호는 10~16자여야 합니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
