@@ -1,0 +1,39 @@
+.box {
+    padding: 20px;
+}
+.input {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.List {
+    margin: 10px 0 0 0;
+    width: full;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: skyblue;
+}
+.text {
+    font-size: x-large;
+    text-align: center;
+}
+.button {
+    gap: 10px;
+}
+.Last {
+    width: full;
+}
+.last {
+    width: full;
+    display: flex;
+    justify-content: center;
+}

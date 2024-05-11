@@ -1,0 +1,15 @@
+.main {
+    width: full;
+    height: full;
+    padding: 0;
+    maegin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
