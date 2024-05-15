@@ -1,0 +1,4 @@
+.stateList {
+    display: flex;
+    justify-content: row;
+}

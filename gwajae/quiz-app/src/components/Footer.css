@@ -1,0 +1,19 @@
+.main1 {
+    width: 100vw;
+    height: 70px;
+    background-color: orange;
+    display: flex;
+    justify-items: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+.title1 {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-style: bold;
+    font-size: xx-large;
+    cursor: pointer;
+}

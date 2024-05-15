@@ -1,0 +1,33 @@
+.main {
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-items: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.title {
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-style: bold;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.list {
+    padding: 0 20px;
+    gap: 20px;
+    display: flex;
+    justify-items: row;
+}
+.but {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
